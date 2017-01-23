@@ -6,6 +6,7 @@ OFLAG=-o
 CPPUNIT_FLAGS=-I$CPPUNIT_HOME/include -L$CPPUNIT_HOME/lib -lcppunit
 # PCRE 
 PCRE_FLAG=-lpcrecpp
+
 # directory structure:
 # object files 
 OBJ=obj
@@ -14,7 +15,7 @@ TEST=test
 # Source files
 SRC=src
 # binaries
-SFILE=main.sh
+SFILE=script.sh
 OFILE=main
 TESTFILE=test/test_find_macros
 
